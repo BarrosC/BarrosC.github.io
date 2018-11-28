@@ -1,0 +1,28 @@
+// Vendor
+@import "~@angular/material/prebuilt-themes/deeppurple-amber.css";
+
+// Partials
+@import "partials/colors";
+@import "partials/grid";
+
+// Base imports
+@import "reset";
+@import "base";
+
+// Modules
+@import "modules/header";
+@import "modules/footer";
+@import "modules/sidenav";
+@import "modules/cards";
+@import "modules/forms";
+@import "modules/loader";
+@import "modules/tables";
+
+//Layouts
+@import "layouts/base";
+@import "layouts/home";
+@import "layouts/access";
+@import "layouts/dashboard";
+@import "layouts/perfil";
+@import "layouts/noticias";
+@import "layouts/eventos";

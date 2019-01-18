@@ -13,15 +13,20 @@
 
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
     <script>
+        var urlParams = "?grant_type=authorization_code&client_id=77y2fh8eicarv7&client_secret=niF2k9YnskyzysTV";
         $(document).ready(function() {
-            $.ajax( "https://www.linkedin.com/oauth/v2/accessToken?grant_type=authorization_code&client_id=77y2fh8eicarv7&client_secret=niF2k9YnskyzysTV" )
+            teste();
+        });
+
+        function teste() {
+            $.ajax( "https://www.linkedin.com/oauth/v2/accessToken" + urlParams )
             .done(function(data) {
                 console.log(data);
             })
             .fail(function(error) {
                 console.log(error);
             });
-        });
+        }
     </script>
 </body>
 </html>

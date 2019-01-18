@@ -1,16 +1,27 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html>
 <head>
-  <meta charset="utf-8">
-  <title>Follow Us</title>
-  <base href="/">
-
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" type="image/x-icon" href="favicon.ico">
-
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-<link rel="stylesheet" href="styles.1b969eb5bc094ee65383.css"></head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+</head>
 <body>
-  <app-root></app-root>
-<script type="text/javascript" src="runtime.a66f828dca56eeb90e02.js"></script><script type="text/javascript" src="polyfills.2f4a59095805af02bd79.js"></script><script type="text/javascript" src="main.b2ef8d829eb497e46312.js"></script></body>
+    olá"!
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $.ajax( "https://www.linkedin.com/oauth/v2/accessToken?grant_type=client_credentials&client_id=77y2fh8eicarv7&client_secret=niF2k9YnskyzysTV" )
+            .done(function(data) {
+                console.log(data);
+            })
+            .fail(function(error) {
+                console.log(error);
+            });
+        });
+    </script>
+</body>
 </html>

@@ -14,7 +14,7 @@
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
     <script>
         $(document).ready(function() {
-            $.ajax( "https://www.linkedin.com/oauth/v2/accessToken?grant_type=client_credentials&client_id=77y2fh8eicarv7&client_secret=niF2k9YnskyzysTV" )
+            $.ajax( "https://www.linkedin.com/oauth/v2/accessToken?grant_type=authorization_code&client_id=77y2fh8eicarv7&client_secret=niF2k9YnskyzysTV" )
             .done(function(data) {
                 console.log(data);
             })

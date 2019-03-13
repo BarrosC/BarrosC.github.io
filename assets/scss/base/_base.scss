@@ -1,0 +1,37 @@
+html {
+    font-family: 'Lato', sans-serif;
+}
+
+.container {
+    display: block;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.default-page {
+    .default-page__title {
+        margin: 50px 0 10px;
+        font-size: 1.5rem;
+        font-weight: 700;
+    }
+
+    .default-page__text {
+        color: #494949;
+        letter-spacing: -0.47px;
+        margin: 25px 0;
+        font-size: 1.1rem;
+    }
+
+    .default-page__code {
+        padding: 20px;
+        margin-bottom: 40px;
+        line-height: 1.2rem;
+        max-width: 100%;
+        white-space: pre-wrap;
+        background: #F0F0F0;
+        max-width: 800px;
+    }
+}

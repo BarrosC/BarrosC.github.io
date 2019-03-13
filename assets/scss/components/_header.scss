@@ -1,0 +1,12 @@
+.main-header {
+    background-color: $purple;
+    display: flex;
+    align-items: center;
+    height: 64px;
+    padding: 0 30px;
+
+    .main-header__title {
+        font-size: 1.5rem;
+        color: $white;
+    }
+}

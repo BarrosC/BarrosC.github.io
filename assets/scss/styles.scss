@@ -1,0 +1,22 @@
+/* You can add global styles to this file, and also import other style files */
+
+/**************** Vendor *****************/
+
+/**************** Base *****************/
+@import "base/reset";
+@import "base/base";
+
+/**************** Partials *****************/
+@import "partials/colors";
+@import "partials/grid";
+
+/**************** Abstract *****************/
+
+/**************** Modules *****************/
+@import "modules/buttons";
+@import "modules/cards";
+
+/**************** Components *****************/
+@import "components/header";
+@import "components/home";
+@import "components/cards";

@@ -1,0 +1,45 @@
+.btn {
+    transition: all 200ms ease-in-out;
+    font-size: 1.1rem;
+    text-align: center;
+    height: 36px;
+    line-height: 36px;
+    background-color: rgba($color: #ccc, $alpha: .7);
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    padding: 0 20px;
+    -webkit-box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12), 0 1px 5px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12), 0 1px 5px 0 rgba(0,0,0,0.2);
+
+    &:hover {
+        background-color: rgba($color: #ccc, $alpha: 1);
+    }
+
+    &.btn--info {
+        color: $white;
+        background-color: rgba($color: $blue, $alpha: .7);
+
+        &:hover {
+            background-color: rgba($color: $blue, $alpha: 1);
+        }
+    }
+
+    &.btn--success {
+        color: $white;
+        background-color: rgba($color: $teal, $alpha: .7);
+
+        &:hover {
+            background-color: rgba($color: $teal, $alpha: 1);
+        }
+    }
+
+    &.btn--danger {
+        color: $white;
+        background-color: rgba($color: $red, $alpha: .7);
+
+        &:hover {
+            background-color: rgba($color: $red, $alpha: 1);
+        }
+    }
+}
